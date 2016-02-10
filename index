@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <title>Baz's Weather App</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+ <!-- jQuery reference-->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+ 
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+     
+    <link rel="stylesheet" type="text/css" href="styles.css">
+	
+<!-- Note: both Vegas css and Vegas js files are in the 'js/vegas' folder -->
+  <!-- Vegas CSS reference -->
+  <link rel="stylesheet" href="js/vegas/vegas.min.css">
+  <!-- Vegas javascript reference-->
+  <script src="js/vegas/vegas.min.js"></script>
+	
+  </head>	
+  <body>
+  
+  <div id="overlay"></div>
+    
+    <div class="container">
+          
+        <div class="row">
+              
+				<div class="col-md-6 col-md-offset-3 center">
+                  
+                  <h1 class="center">Barry's Weather App!</h1>
+				  
+					<p class="lead center"> Yes, its raining in Ireland, but lets double check! Enter a city below to get a three day weather summary for that location.</p>
+                  
+						<form>
+				  
+							<div class="form-group">
+					
+							<input type="text" class="form-control" name="city" id="city" placeholder="Enter Your City! e.g. Armagh, Dublin..."/>
+						
+					
+							</div>
+				  
+							<button id="findweather" class="btn btn-success btn-lg">Find Out The Weather</button>
+				  
+						</form>
+				  
+				<div id="success" class="alert alert-success"> success </div>
+				
+				
+				<div id="fail" class="alert alert-danger"> City not found. Please try another City </div>
+				
+				<div id="nocity" class="alert alert-danger"> Please Enter a City </div>
+				  
+				</div>
+		  
+        </div>
+          
+    </div>
+	
+	 <!--javascript reference -->
+	<script src="js/myscripts.js"></script>
+ 
+  </body>
+</html>
