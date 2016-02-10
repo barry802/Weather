@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+  }
+  .container {
+	
+   /* background-image: url("images/background03.jpg"); */
+	background:no-repeat center top / cover;
+  background-image:;
+  transition:background-image 2s; /*transition takes two seconds*/
+    width: 100%;	
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+	padding-top:200px;
+
+  }
+  h1, p {
+    color: #F0F0F0;
+  }
+  .center {
+    text-align: center;
+  }
+	
+  .white {
+	
+	color:white;
+}
+ 
+  .vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+  }
+  p {
+    padding: 10px 0 10px 0;
+  }
+  button {
+    margin:20px 0 20px 0;
+  }
+  .result {
+    margin-top: 25px;
+  }
+  .alert {
+	margin-top:20px;
+	display:none;
+    text-align: center;
+  }
+  .tip {
+    text-align: left;
+    color: #A6A6A6;
+  }
+  
+  .vegas-loading {
+	/* Loading Gif by http://preloaders.net/ */
+	-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;
+	background:#000 url(http://jaysalvat.github.io/vegas/releases/latest/images/loading.gif) no-repeat center center;
+	background:rgba(0, 0, 0, 0.7) url(http://jaysalvat.github.io/vegas/releases/latest/images/loading.gif) no-repeat center center;
+	height:32px;
+	left:20px;
+	position:fixed;
+	top:20px;
+	width:32px; 
+	z-index:0;
+}
+
+.vegas-overlay {
+	background:transparent url(http://vegas.jaysalvat.com/js/vegas/overlays/11.png);
+	opacity:0.5;
+	z-index:-1;
+}
+
