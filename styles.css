@@ -51,8 +51,9 @@ html, body {
     color: #A6A6A6;
   }
   
+/*
   .vegas-loading {
-	/* Loading Gif by http://preloaders.net/ */
+	 Loading Gif by http://preloaders.net/ 
 	-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;
 	background:#000 url(http://jaysalvat.github.io/vegas/releases/latest/images/loading.gif) no-repeat center center;
 	background:rgba(0, 0, 0, 0.7) url(http://jaysalvat.github.io/vegas/releases/latest/images/loading.gif) no-repeat center center;
@@ -69,4 +70,4 @@ html, body {
 	opacity:0.5;
 	z-index:-1;
 }
-
+*/
